@@ -5,5 +5,12 @@
   "sidebar.search-tree-view": "Search in treeview",
   "sidebar.vms-treeview": "VMs treeview",
 
-  "tasks.quick-view": "Tasks' quick view (coming soon)"
+  "tasks.quick-view": "Tasks' quick view (coming soon)",
+
+  "vms-halted-status": "Halted",
+  "vms-halted-status-tooltip": "Vms with an halted power state",
+  "vms-running-status": "Running",
+  "vms-status": "VMs status",
+  "vms-unknown-status": "Unknown",
+  "vms-unknown-status-tooltip": "Vms with an unknown power state"
 }

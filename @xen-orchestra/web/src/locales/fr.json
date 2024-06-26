@@ -5,5 +5,12 @@
   "sidebar.search-tree-view": "Rechercher dans l'arborescence",
   "sidebar.vms-treeview": "Arborescence des VMs",
 
-  "tasks.quick-view": "Vue rapide des tâches (bientôt disponible)"
+  "tasks.quick-view": "Vue rapide des tâches (bientôt disponible)",
+
+  "vms-halted-status": "Arrêtées",
+  "vms-halted-status-tooltip": "VMs avec un état d'alimentation arrêté",
+  "vms-running-status": "En fonctionnement",
+  "vms-status": "Statut des VMs",
+  "vms-unknown-status": "Inconnu",
+  "vms-unknown-status-tooltip": "VMs avec un état d'alimentation inconnu"
 }
