@@ -1,4 +1,12 @@
 {
   "account-organization-more": "Account, organization & more…",
+
+  "hosts-halted-status": "Halted",
+  "hosts-halted-status-tooltip": "Hosts with a halted power state",
+  "hosts-running-status": "Running",
+  "hosts-status": "Hosts status",
+  "hosts-unknown-status": "Unknown",
+  "hosts-unknown-status-tooltip": "Hosts with an unknown power state",
+
   "tasks.quick-view": "Tasks' quick view (coming soon)"
 }
