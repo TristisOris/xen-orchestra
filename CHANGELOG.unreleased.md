@@ -15,6 +15,7 @@
 > Users must be able to say: “I had this issue, happy to know it's fixed”
 
 - [Backups] Fix Full backups job keeping a snapshot (PR [#7805](https://github.com/vatesfr/xen-orchestra/pull/7805))
+- [Backups] fix(backups): Cannot destructure property 'other_config' of 'undefined' on continuous replication (PR [#7805](https://github.com/vatesfr/xen-orchestra/pull/7805))
 
 ### Packages to release
 
