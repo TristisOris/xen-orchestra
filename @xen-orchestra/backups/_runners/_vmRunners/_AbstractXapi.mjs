@@ -284,7 +284,7 @@ export const AbstractXapi = class AbstractXapiVmBackupRunner extends Abstract {
       for (const vdiRef of vdiRefs) {
         try {
           // data_destroy will fail with a VDI_NO_CBT_METADATA error if CBT is not enabled on this VDI
-          await xapi.VDI_dataDestroy(vdiRef)
+          await xapi.call('VDI.data_destroy', vdiRef)
           Task.info(`Snapshot data has been deleted`, { vdiRef })
         } catch (error) {
           Task.warning(`Couldn't deleted snapshot data`, { error, vdiRef })

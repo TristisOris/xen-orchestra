@@ -91,10 +91,6 @@ class Vdi {
     return buf
   }
 
-  async dataDestroy(ref) {
-    return this.call('VDI.data_destroy', ref)
-  }
-
   async disconnectFromControlDomain(vdiRef) {
     const vbdRefs = await this.getField('VDI', vdiRef, 'VBDs')
     await Promise.all(
